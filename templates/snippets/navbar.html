@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-	  <a class="navbar-brand" href="{% url 'home' %}">BLOG</a>
+	  <a class="navbar-brand" href="{% url 'home' %}">Ujian Online</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -10,7 +10,7 @@
 	        <a class="nav-link" href="{% url 'home' %}">Home</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="{% url 'artikel:list' 1 %}">Artikel</a>
+	        <a class="nav-link" href="{% url 'artikel:list' 1 %}">Admin</a>
 	      </li>
 	    </ul>
 	    <div class="nav-item dropdown ml-auto">
@@ -18,8 +18,8 @@
 	          User
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item" href="{% url 'artikel:create' %}">Tambah artikel</a>
-	          <a class="dropdown-item" href="{% url 'artikel:manage' %}">Manage artikel</a>
+	          <a class="dropdown-item" href="{% url 'artikel:create' %}">Registrasi</a>
+	          <a class="dropdown-item" href="{% url 'artikel:manage' %}">Edit Data</a>
 	          
 	        </div>
 	    </div>
